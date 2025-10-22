@@ -1,0 +1,50 @@
+.card {
+  width: 20rem;
+  background: #F3F5F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 1.4rem;
+  text-align: center;
+  border-radius: 20px;
+}
+.card ol {
+  justify-content: center;
+  text-align: start;
+  align-items: center;
+  list-style: circle;
+}
+.card ol li {
+  align-content: center;
+  margin: 1.4rem;
+}
+.card .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+.card .title p {
+  font-size: large;
+  font-weight: bold;
+}
+.card .title .primary {
+  color: #21C05C;
+}
+.card .title .secondary {
+  color: #2563EB;
+}
+.card .title .icon {
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  align-content: center;
+}
+.card .title .icon.primary {
+  background-color: #b3edc9;
+}
+.card .title .icon.secondary {
+  background-color: #7ea7ff;
+}/*# sourceMappingURL=card.css.map */

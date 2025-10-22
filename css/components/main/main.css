@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .title {
+  text-align: center;
+}
+.main .title h1 {
+  font-weight: bold;
+}
+.main .title p {
+  font-size: medium;
+}
+.main .title .emphasis {
+  color: #21C05C;
+}
+.main .main-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main .main-action .main-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 5px;
+  font-size: small;
+  height: 2.1rem;
+  width: 8.5rem;
+  border: none;
+}
+.main .main-action .main-btn.primary {
+  background-color: #21C05C;
+  color: white;
+}
+.main .main-action .main-btn.secondary {
+  background-color: transparent;
+  border: solid 1px #2563EB;
+  color: #2563EB;
+}/*# sourceMappingURL=main.css.map */
