@@ -1,0 +1,29 @@
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #efefef;
+}
+.action .action-buttons {
+  display: flex;
+  gap: 20px;
+  width: 15rem;
+  height: 2rem;
+  margin: 1rem 0;
+}
+.action .action-buttons .primary {
+  border: none;
+  background-color: #21C05C;
+  color: white;
+  border-radius: 7px;
+}
+.action .action-buttons .secondary {
+  border: solid 1px #21C05C;
+  background-color: transparent;
+  border-radius: 7px;
+  color: #21C05C;
+}/*# sourceMappingURL=action.css.map */

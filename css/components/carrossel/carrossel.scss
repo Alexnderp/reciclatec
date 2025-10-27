@@ -93,21 +93,9 @@
   }
 }
 
-.flyer {
-  width: 100%;
-  display: block;
-  aspect-ratio: 2/3;
-  object-fit: cover;
-  border-radius: 12px 12px 0 0;
-}
 
-.info {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  justify-content: center;
-  padding: 0.5rem;
-}
+
+
 
 .head-card {
   height: 3.3rem;
@@ -116,55 +104,7 @@
   justify-content: space-between;
 }
 
-.title {
-  color: aliceblue;
-  font-weight: bold;
-  font-size: 0.8rem;
-}
 
-.genre {
-  color: aliceblue;
-  font-size: 0.8rem;
-}
-
-.duration {
-  color: aliceblue;
-  font-size: 0.8rem;
-}
-
-.card-btn {
-  width: 100%;
-  padding: 0.6rem;
-  border: none;
-  background: transparent;
-  border-top: 1px solid aliceblue;
-  color: #FF6600;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  cursor: pointer;
-  font-size: 0.9rem;
-  border-radius: 0 0 12px 12px;
-}
-
-.rate {
-  display: flex;
-  align-items: center;
-  background-color: yellow;
-  color: #191919;
-  font-weight: bold;
-  padding: 0.1rem 0.3rem;
-  border-radius: 2px;
-  font-size: 0.75rem;
-}
-
-.age {
-  line-height: 1;
-}
-
-.plus {
-  line-height: 1;
-  margin-left: 1px;
-}
 
 input[type="radio"] {
   display: none;

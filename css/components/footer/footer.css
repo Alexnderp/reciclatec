@@ -1,0 +1,74 @@
+footer {
+  background: #1F2937;
+}
+footer .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  gap: 15px;
+}
+footer .title .logo {
+  color: #21C05C;
+  display: flex;
+  gap: 10px;
+}
+footer .title .logo span {
+  color: white;
+}
+footer .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+}
+footer .links h6 {
+  color: white;
+  font-size: medium;
+}
+footer .links .link-rapido {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  gap: 10px;
+}
+footer .links .link-rapido a {
+  text-decoration: none;
+  color: #9CA3AF;
+  font-size: medium;
+}
+footer .links .suporte {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  gap: 10px;
+}
+footer .links .suporte a {
+  text-decoration: none;
+  color: #9CA3AF;
+  font-size: medium;
+}
+footer .links .redes {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  gap: 10px;
+}
+footer .links .redes span {
+  color: #9CA3AF;
+  font-size: medium;
+}
+footer .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+footer .facebook {
+  color: #2563EB;
+}
+footer .insta {
+  color: #DB2777;
+}/*# sourceMappingURL=footer.css.map */

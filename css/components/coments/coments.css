@@ -1,0 +1,65 @@
+.coments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.coment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 20rem;
+  height: 15rem;
+  border-top: 1px solid #9CA3AF;
+  border-right: 1px solid #9CA3AF;
+  border-bottom: 1px solid #9CA3AF;
+  border-left: 4px solid #9CA3AF;
+  border-radius: 4px 0 0 4px;
+}
+.coment-card .stars {
+  display: flex;
+  color: #FACC15;
+  margin: 20px;
+  gap: 2px;
+}
+.coment-card span {
+  margin: 0 20px;
+  font-size: large;
+  color: #4B5563;
+}
+.coment-card .user {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.coment-card .user .icon {
+  border-radius: 100%;
+  padding: 5px;
+  text-align: center;
+  align-content: center;
+}
+.coment-card .user .icon.primary {
+  background-color: #b3edc9;
+  color: #21C05C;
+}
+.coment-card .user .icon.secondary {
+  background-color: #7ea7ff;
+  color: #2563EB;
+}
+.coment-card .user .icon.tertiary {
+  background: #16A34A;
+  color: #026125;
+}
+.coment-card .user div {
+  display: flex;
+  flex-direction: column;
+}
+.coment-card .user div .name {
+  font-size: large;
+  font-weight: bold;
+}
+.coment-card .user div .role {
+  color: #6B7280;
+}/*# sourceMappingURL=coments.css.map */
