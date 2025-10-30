@@ -1,3 +1,6 @@
+$primary: #21C05C;
+
+
 .carrossel-container {
   width: 100%;
   overflow: hidden;
@@ -34,9 +37,51 @@
     width: calc(100% + 32px);
 
     .card {
+      background: transparent;
+      border: solid 2px $primary;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+      user-select: none;
+      -webkit-user-select: none;
       scroll-snap-align: start;
       flex: 0 0 calc(43% - 6px);
       min-width: calc(43% - 6px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: auto;
+
+        img{
+          width: 12rem;
+        
+        }
+
+        .title{
+          font-weight: bold;
+          font-size: large;
+        }
+
+        .description{
+          color: #4B5563;
+
+        }
+
+        .card-btn{
+          background-color: $primary;
+          border-radius: 4px;
+          height: 1.6rem;
+          border: none;
+          color: white;
+        }
+      }
 
       &:nth-child(n+3) {
         position: relative;
@@ -46,64 +91,38 @@
     &.start-with-second {
       scroll-padding-left: calc(50% + 8px);
     }
+
+    @media (max-width: 767px) {
+      &:last-child {
+        position: relative;
+
+        &::after {
+          content: '';
+          position: absolute;
+          right: -6px;
+          top: 0;
+          height: 100%;
+          width: 2px;
+          background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1));
+        }
+      }
+    }
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
-    .carrossel-card {
+    .card {
       flex: 0 0 calc(33.333% - 8px);
       min-width: calc(33.333% - 8px);
     }
   }
 
   @media (min-width: 1024px) {
-    .carrossel-card {
+    .card {
       flex: 0 0 calc(25% - 9px);
       min-width: calc(25% - 9px);
     }
   }
 }
-
-.carrossel-card {
-  background: #000000;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-  user-select: none;
-  -webkit-user-select: none;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-  }
-
-  @media (max-width: 767px) {
-    &:last-child {
-      position: relative;
-
-      &::after {
-        content: '';
-        position: absolute;
-        right: -6px;
-        top: 0;
-        height: 100%;
-        width: 2px;
-        background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1));
-      }
-    }
-  }
-}
-
-
-
-
-
-.head-card {
-  height: 3.3rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 
 
 input[type="radio"] {
